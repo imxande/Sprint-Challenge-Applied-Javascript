@@ -9,4 +9,4 @@
 //    <div class="tab">topic here</div>
 
 // get request
-axius.get(' https://lambda-times-backend.herokuapp.com/topics');
+axios.get(' https://lambda-times-backend.herokuapp.com/topics');
