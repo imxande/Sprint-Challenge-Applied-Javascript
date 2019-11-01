@@ -23,8 +23,13 @@ function Header() {
     spanTemp.classList.add('temp');
 
     // set text content
-    spanTemp.textContent
+    spanDate.textContent = 'MARCH 28, 2019';
+    spanTemp.textContent = '98°';
 
+    // setup structure
+    headerDiv.appendChild(spanDate);
+    headerDiv.appendChild(lambdaH1);
+    headerDiv.appendChild(spanTemp);
 
 
 
