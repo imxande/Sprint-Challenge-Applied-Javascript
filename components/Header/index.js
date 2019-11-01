@@ -3,7 +3,7 @@
 // Using a function create the component you see below:
 //
 //  <div class="header">
-//    <span class="date">SMARCH 28, 2019</span>
+//    <span class="date">MARCH 28, 2019</span>
 //    <h1>Lambda Times</h1>
 //    <span class="temp">98°</span>
 //  </div >
@@ -21,6 +21,9 @@ function Header() {
     headerDiv.classList.add('header');
     spanDate.classList.add('date');
     spanTemp.classList.add('temp');
+
+    // set text content
+    spanTemp.textContent
 
 
 
