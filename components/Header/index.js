@@ -31,7 +31,7 @@ function Header() {
     headerDiv.appendChild(lambdaH1);
     headerDiv.appendChild(spanTemp);
 
-
-
-
 }
+
+// And add it to the DOM in the .header-container component
+const newHeaderContainer = document.querySelector('.header-container');
