@@ -30,20 +30,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+- DOM stands for document object manipulation and allows us to manipulate elements from our html file using javascript. 
+
 2. What is an event?
+
+- Events are functionality that happen to the html elements; thus, allowing javascript to react accordingly.
 
 3. What is an event listener?
 
+- An event listener in our case is that javasccript code waiting to react and fire up once the specified event occurs. 
+
 4. Why would we convert a NodeList into an Array?
+
+- In my own expirience, I prefer solving problems using array instead of objects unless I need the other way around. Also, on a proffesional  
+  level, we know that a NodeList is not an Array thus if we want to used the hangful of methods arrays provide then we need to convert the 
+  nodelist into an array.
+  
 
 5. What is a component?
 
+- A component is that piece of re-usable code (logic, behavior) that allow us to focus on user interface concepts.  
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
