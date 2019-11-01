@@ -31,7 +31,15 @@ function Header() {
     headerDiv.appendChild(lambdaH1);
     headerDiv.appendChild(spanTemp);
 
+    return headerDiv;
 }
 
-// And add it to the DOM in the .header-container component
+// selecting header-container
 const newHeaderContainer = document.querySelector('.header-container');
+
+// creating place holder for function Header
+const functCreator = Header();
+
+// adding created component to the selected header-container
+newHeaderContainer.appendChild(functCreator);
+
