@@ -24,6 +24,7 @@ function Header() {
 
     // set text content
     spanDate.textContent = 'MARCH 28, 2019';
+    lambdaH1.textContent = 'Lambda Times';
     spanTemp.textContent = '98°';
 
     // setup structure
