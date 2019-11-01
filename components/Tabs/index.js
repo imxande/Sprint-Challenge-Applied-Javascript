@@ -9,4 +9,29 @@
 //    <div class="tab">topic here</div>
 
 // get request
-axios.get(' https://lambda-times-backend.herokuapp.com/topics');
+axios.get(' https://lambda-times-backend.herokuapp.com/topics')
+.then(response => {
+    const lambdaTopics = response.data;
+    console.log(lambdaTopics);
+// iteration
+lambdaTopics.Array.forEach(element => {
+    
+});
+
+})
+
+// tab component
+function Tab_Comp(){
+    
+    // creating element
+    const tabDiv = document.createElement('div');
+
+    // adding class for tabDiv
+    tabDiv.classList.add('tab');
+
+    return tabDiv;
+}
+
+// place holder for my component creator
+const myTab = Tab_Comp();
+
